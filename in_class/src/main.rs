@@ -49,3 +49,10 @@ fn get_rgb(c: char) -> (u8, u8, u8) {
         _ => (0, 0, 0), // default case for invalid input
     }
 }
+
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        digits = str(x)
+
+        return digits == digits[::-1]
+}
